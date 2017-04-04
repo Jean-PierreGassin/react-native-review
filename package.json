@@ -1,0 +1,21 @@
+{
+  "name": "react-native-review",
+  "version": "0.0.1",
+  "description": "A React Native module for requesting an in-app review dialogue",
+  "main": "review.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-PierreGassin/react-native-review.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "review",
+    "in-app"
+  ],
+  "author": "Jean-Pierre Gassin <jeanpierre.gassin@gmail.com> (http://jpgassin.com)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.8.0"
+  }
+}
