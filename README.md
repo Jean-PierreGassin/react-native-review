@@ -25,9 +25,9 @@ const appReview = new Review().requestReview();
 
 3. Add 'lbRNReview.a' to your projects 'Build Phases' __(Project > Build Phases)__
 
-2. Toggle on In-App Purchases for your App __(Project > Capabilities > In-App Purchases)__
+4. Toggle on In-App Purchases for your App __(Project > Capabilities > In-App Purchases)__
 
-3. Add the following JavaScript to your project:
+5. Add the following JavaScript to your project:
 
 ```
 import Review from 'react-native-review';
