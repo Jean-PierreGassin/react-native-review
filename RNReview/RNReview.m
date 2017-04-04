@@ -6,18 +6,19 @@
 @implementation RNReview
 
 -(NSString *) getDirectory:(int)directory {
-  return [NSSearchPathForDirectoriesInDomains(directory, NSUserDomainMask, YES) firstObject];
+    return [NSSearchPathForDirectoriesInDomains(directory, NSUserDomainMask, YES) firstObject];
 }
 
 RCT_EXPORT_MODULE();
 
 -(NSDictionary *)constantsToExport {
-  return @{@"IsAndroid": [NSNumber numberWithBool:NO],
-           @"MainBundlePath": [[NSBundle mainBundle] bundlePath],
-           @"NSDocumentDirectory": [self getDirectory:NSDocumentDirectory],
-           @"NSLibraryDirectory": [self getDirectory:NSLibraryDirectory],
-           @"NSCachesDirectory": [self getDirectory:NSCachesDirectory],
-           };
+    return @{
+        @"IsAndroid": [NSNumber numberWithBool:NO],
+        @"MainBundlePath": [[NSBundle mainBundle] bundlePath],
+        @"NSDocumentDirectory": [self getDirectory:NSDocumentDirectory],
+        @"NSLibraryDirectory": [self getDirectory:NSLibraryDirectory],
+        @"NSCachesDirectory": [self getDirectory:NSCachesDirectory],
+    };
 }
 
 
