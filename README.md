@@ -1,5 +1,5 @@
 # About
-This projects aims to implement the newly introduced In-App review functionality via a React Native bridge.
+This projects aims to implement the newly introduced In-App review functionality (iOS 10.3) via a React Native bridge.
 
 Pull requests are very welcome and any additional functionality or enhancements are most welcome.
 
